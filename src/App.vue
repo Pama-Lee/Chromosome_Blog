@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<IndexBase />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import IndexBase from './pages/IndexBase.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    IndexBase
+  },
+  mounted(){
+     // 全局body样式
+     document.getElementsByTagName('body')[0].className = 'mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink';
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
