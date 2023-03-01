@@ -5,8 +5,7 @@
                 <div class="mdui-col-xs-12 mdui-col-sm-12 mdui-col-md-10 mdui-col-lg-10 mdui-col-offset-md-1 mdui-col-offset-lg-1">
                     <div class="mdui-card">
                 <div class="mdui-card-media">
-                    <img style="  max-height: 300px;
-  overflow: hidden; object-fit: cover;" :src="article.banner"/>
+                    <img style="max-height: 300px; overflow: hidden; object-fit: cover;" :src="article.banner"/>
                 <div class="mdui-card-media-covered">
                  <div class="mdui-card-primary">
                   <div class="mdui-card-primary-title">{{ article.title }}</div>
